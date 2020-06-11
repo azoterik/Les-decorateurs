@@ -1,0 +1,494 @@
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/***************************************************** Nav bar */
+
+.navbar{
+font-family: 'Raleway';
+font-weight: bold;
+}
+
+.navpadding {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.navdiv {
+  padding-right: 15px;
+  background-color: white;
+}
+
+.navtext {
+font-size: 14px;
+color: black;
+}
+
+.colornav{
+  background-color: black;
+}
+
+.myButton {
+	background-color:#000000;
+	border-radius:35px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#fcf7fc;
+	font-family:Arial;
+	font-size:12px;
+	padding:8px 20px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#292029;
+  text-decoration: none;
+  color: black;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton6 {
+	background-color:#FAEFE6;
+	border-radius:35px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:14px;
+	padding:8px 20px;
+	text-decoration:none;
+}
+.myButton6:hover {
+	background-color:rgba(179,175,175,1);
+  text-decoration: none;
+  color: black;
+}
+.myButton6:active {
+	position:relative;
+	top:1px;
+}
+
+/***************************************************** Lending Menu */
+
+#carouselExampleSlidesOnly {
+  width: 80%;
+  height:45%;
+}
+
+.PhotoAccueil {
+width: 100%;
+height: 800px;
+object-fit: cover;
+}
+
+.titresite {
+  position: absolute;
+  font-size: 4rem;
+  color: white;
+  font-family: 'Montserrat-Bold';
+  padding-left: 50px;
+  padding-right: 200px;
+  bottom: 400px;
+}
+
+.positionbuttontitle {
+  position: absolute;
+  bottom: 300px;
+  left: 50px;
+}
+
+.myButton2 {
+	background-color:#fcf9fc;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:18px 30px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #2f6627;
+}
+.myButton2:hover {
+	background-color:#f7eff7;
+  text-decoration: none;
+  color: black;
+
+}
+.myButton2:active {
+	position:relative;
+	top:1px;
+}
+
+/***************************************************** Intermédiaire */
+
+
+/***************************************************** Explication */
+
+#Explication {
+background-color: #EEEEEE;
+padding-bottom: 1%;
+}
+
+.ExplicationTitre {
+  padding-top: 3rem;
+  padding-left: 3rem;
+  padding-bottom: 3rem;
+  font-family: 'Arimo';
+  font-weight:500;
+  font-size: 2.5rem;
+}
+
+.zigzag {
+  position: absolute;
+  width:100%;
+  height: auto;
+}
+
+.explicationchiffre {
+  font-family: 'Arimo';
+  font-weight:500;
+  font-size: 3.5rem;
+  color: black;
+  padding-left: 50px;
+}
+
+.explicationimage {
+  width: 100%;
+  padding-bottom: 15%;
+  padding-left: 15%;
+  align-items: center;
+}
+
+.explicationtitre {
+font-family: 'Arimo';
+font-weight: bold;
+padding-left: 50px;
+padding-right: 50px;
+font-size: 20px;
+}
+
+.explicationtexte {
+  font-family: 'Arimo';
+  padding-left: 50px;
+  font-size: 0.8rem;
+  padding-bottom: 50px;
+
+}
+
+.explicationcase1{
+  padding: 0px;
+}
+
+.explicationcase2{
+  padding: 0px;
+}
+
+.explicationcase3{
+  padding: 0px;
+}
+
+/***************************************************** Nos offres */
+
+#Offre {
+  background-color: white;
+}
+
+.ligne {
+   border-top: 2px solid black;
+}
+
+.coloneblock {
+  padding-top: 8%;
+  padding-left: 25%;
+  padding-bottom: 8%;
+}
+
+.coloneoffre {
+align-items: center;
+border-left: : 20%;
+box-shadow: 0px 1px 19px -7px rgba(179,175,175,1);
+margin-right: 110px;
+background-color: #FAEFE6;
+margin-bottom: 100px;
+}
+
+.typeoffre{
+font-size: 1.5rem;
+padding-top: 8%;
+padding-left: 7%;
+font-family: 'Montserrat';
+font-weight: 600;
+}
+
+.prix {
+  font-family: 'Montserrat';
+  font-size: 2.5rem;
+  padding-left: 65%;
+}
+
+.imageoffre {
+  height: 250px;
+  width: 250px;
+}
+
+.descriptionoffre {
+  padding-top: 10%;
+  padding-bottom: 10%;
+font-family: 'Raleway';
+}
+
+.bouttonoffre1 {
+  padding-top: 25px;
+  padding-bottom: 40px;
+  padding-left: 15%;
+}
+
+.bouttonoffre2 {
+  padding-bottom: 40px;
+  padding-left: 15%;
+}
+
+.myButton3 {
+	background-color:#fcf9fc;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:18px 30px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #2f6627;
+}
+.myButton3:hover {
+	background-color:#f7eff7;
+  text-decoration: none;
+  color: black;
+}
+.myButton3:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton4 {
+	background-color:#000000;
+	border-radius:35px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#fcf7fc;
+	font-family:Arial;
+	font-size:13px;
+	padding:18px 30px;
+	text-decoration:none;
+}
+.myButton4:hover {
+	background-color:#292029;
+  text-decoration: none;
+  color: black;
+}
+.myButton4:active {
+	position:relative;
+	top:1px;
+}
+
+
+/***************************************************** Photo intermédiaire */
+
+.photointermédiaire{
+  width:100%;
+  height: auto;
+}
+
+/***************************************************** Temoignage */
+
+#temoignages{
+background-color: #FAEFE6;
+color: black;
+}
+
+.testimonial-image{
+width: 100%;
+height: auto;
+font-family: 'Montserrat';
+}
+
+.testimonial-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: 'Montserrat';
+}
+
+.testimonial-text2{
+  font-size: 1rem;
+  font-weight: bolder;
+  font-family: 'Montserrat';
+}
+
+.carousel-item {
+padding: 1% 2%;
+}
+
+.ville {
+  font-size: 0.8rem;
+  font-family: 'Montserrat';
+}
+
+.star {
+  font-size: 1.5rem;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 1.5%;
+}
+
+.carouseldiv {
+padding-left: 80%;
+padding-top: 3%;
+}
+
+.carouselitem2 {
+padding-top:6%;
+}
+
+.temoignagediv{
+  background-color: #FAEFE6;
+}
+
+/***************************************************** Communauté */
+
+.communityimage{
+  width: 100%;
+  height: auto;
+}
+
+.background {
+  background-color: #EEEEEE;
+  margin-bottom: 1px;
+}
+
+.text-block3{
+  padding-top: 3rem;
+  padding-left: 3rem;
+  padding-bottom: 3rem;
+  font-family: 'Arimo';
+  font-weight:500;
+  font-size: 2.5rem;
+  margin-bottom: 0px;
+}
+
+
+/***************************************************** Footer */
+
+.lienstyle {
+  color: black;
+}
+.lienstyle:hover {
+color: black;
+}
+
+.page-footer{
+  font-family: 'Montserrat';
+  font-size: 11px;
+}
+
+.lienstyle2 {
+  font-size: 20px;
+  color: black;
+}
+
+.mb-0 {
+  font-family: 'Montserrat';
+}
+
+/***************************************************** Media query */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .titresite {
+    color: white;
+    font-size: 45px;
+    bottom:200px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .positionbuttontitle{
+    bottom:-100px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+  .titresite {
+    color: white;
+    font-size: 60px;
+    bottom: 200px;
+    padding-right: 100px;
+  }
+  .positionbuttontitle{
+    bottom: -100px;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .titresite {
+    color: white;
+    bottom: 280px;
+    font-size: 60px;
+  }
+  .positionbuttontitle{
+    bottom: -180px;
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .titresite {
+    color: white;
+    font-size: 70px;
+    bottom: 250px;
+  }
+  .positionbuttontitle{
+    bottom: -50px;
+  }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .titresite {
+    color: white;
+    font-size: 70px;
+    bottom: 300px;
+
+  }
+
+  .positionbuttontitle{
+    bottom: -150px;
+  }
+
+  .coloneoffre {
+    padding: 0px;
+  }
+
+}
+
+@media (max-width: 1000px) {
+  .zigzag {
+    visibility: hidden;
+  }
+}
