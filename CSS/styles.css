@@ -79,7 +79,8 @@ color: black;
 #carouselExampleSlidesOnly {
   width: 80%;
   height:45%;
-  font-family: 'Montserrat-Bold';
+  font-family: 'Montserrat';
+  font-weight:800px;
 }
 
 .PhotoAccueil {
@@ -92,7 +93,8 @@ object-fit: cover;
   position: absolute;
   font-size: 4rem;
   color: white;
-  font-family: 'Montserrat-Bold';
+  font-family: 'Montserrat';
+  font-weight:800px;
   padding-left: 50px;
   padding-right: 200px;
   bottom: 400px;
@@ -139,7 +141,8 @@ padding-bottom: 1%;
   padding-top: 3rem;
   padding-left: 3rem;
   padding-bottom: 3rem;
-  font-family: 'Montserrat-Bold';
+  font-family: 'Montserrat';
+  font-weight:800px;
   font-weight:500;
   font-size: 2.5rem;
 }
@@ -396,7 +399,8 @@ padding-top:6%;
   padding-top: 3rem;
   padding-left: 3rem;
   padding-bottom: 3rem;
-  font-family: 'Montserrat-Bold';
+  font-family: 'Montserrat';
+  font-weight:800px;
   font-weight:500;
   font-size: 2.5rem;
   margin-bottom: 0px;
