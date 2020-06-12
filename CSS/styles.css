@@ -79,6 +79,7 @@ color: black;
 #carouselExampleSlidesOnly {
   width: 80%;
   height:45%;
+  font-family: 'Montserrat-Bold';
 }
 
 .PhotoAccueil {
@@ -97,12 +98,6 @@ object-fit: cover;
   bottom: 400px;
 }
 
-.positionbuttontitle {
-  position: absolute;
-  bottom: 300px;
-  left: 50px;
-}
-
 .myButton2 {
 	background-color:#fcf9fc;
 	border-radius:28px;
@@ -110,11 +105,14 @@ object-fit: cover;
 	cursor:pointer;
 	color:#000000;
 	font-family:Arial;
-	font-size:16px;
+	font-size:18px;
 	font-weight:bold;
-	padding:18px 30px;
+	padding:18px 60px;
 	text-decoration:none;
 	text-shadow:0px 0px 0px #2f6627;
+  position: absolute;
+  bottom: 210px;
+  left: 60px;
 }
 .myButton2:hover {
 	background-color:#f7eff7;
@@ -123,7 +121,7 @@ object-fit: cover;
 
 }
 .myButton2:active {
-	position:relative;
+	position:absolute;
 	top:1px;
 }
 
@@ -141,7 +139,7 @@ padding-bottom: 1%;
   padding-top: 3rem;
   padding-left: 3rem;
   padding-bottom: 3rem;
-  font-family: 'Arimo';
+  font-family: 'Montserrat-Bold';
   font-weight:500;
   font-size: 2.5rem;
 }
@@ -153,7 +151,7 @@ padding-bottom: 1%;
 }
 
 .explicationchiffre {
-  font-family: 'Arimo';
+  font-family: 'Raleway';
   font-weight:500;
   font-size: 3.5rem;
   color: black;
@@ -167,8 +165,12 @@ padding-bottom: 1%;
   align-items: center;
 }
 
+.explicationimg3{
+  padding-bottom: 92px;
+}
+
 .explicationtitre {
-font-family: 'Arimo';
+font-family: 'Raleway';
 font-weight: bold;
 padding-left: 50px;
 padding-right: 50px;
@@ -176,7 +178,7 @@ font-size: 20px;
 }
 
 .explicationtexte {
-  font-family: 'Arimo';
+  font-family: 'Raleway';
   padding-left: 50px;
   font-size: 0.8rem;
   padding-bottom: 50px;
@@ -229,7 +231,7 @@ font-weight: 600;
 }
 
 .prix {
-  font-family: 'Montserrat';
+  font-family: 'Raleway';
   font-size: 2.5rem;
   padding-left: 65%;
 }
@@ -242,7 +244,7 @@ font-weight: 600;
 .descriptionoffre {
   padding-top: 10%;
   padding-bottom: 10%;
-font-family: 'Raleway';
+  font-family: 'Raleway';
 }
 
 .bouttonoffre1 {
@@ -262,7 +264,7 @@ font-family: 'Raleway';
 	display:inline-block;
 	cursor:pointer;
 	color:#000000;
-	font-family:Arial;
+	font-family:'Montserrat';
 	font-size:13px;
 	font-weight:bold;
 	padding:18px 30px;
@@ -286,7 +288,7 @@ font-family: 'Raleway';
 	display:inline-block;
 	cursor:pointer;
 	color:#fcf7fc;
-	font-family:Arial;
+	font-family:'Montserrat';
 	font-size:13px;
 	padding:18px 30px;
 	text-decoration:none;
@@ -301,6 +303,21 @@ font-family: 'Raleway';
 	top:1px;
 }
 
+.texteoffre {
+  font-family: 'Raleway';
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.detailtexte {
+  color: black;
+  font-family:'Raleway';
+}
+
+.detailtexte:hover {
+  color: grey;
+  text-decoration: none;
+}
 
 /***************************************************** Photo intermédiaire */
 
@@ -319,19 +336,19 @@ color: black;
 .testimonial-image{
 width: 100%;
 height: auto;
-font-family: 'Montserrat';
+font-family: 'Raleway';
 }
 
 .testimonial-text {
   font-size: 1rem;
   line-height: 1.5;
-  font-family: 'Montserrat';
+  font-family: 'Raleway';
 }
 
 .testimonial-text2{
   font-size: 1rem;
   font-weight: bolder;
-  font-family: 'Montserrat';
+  font-family: 'Raleway';
 }
 
 .carousel-item {
@@ -340,7 +357,7 @@ padding: 1% 2%;
 
 .ville {
   font-size: 0.8rem;
-  font-family: 'Montserrat';
+  font-family: 'Raleway';
 }
 
 .star {
@@ -379,7 +396,7 @@ padding-top:6%;
   padding-top: 3rem;
   padding-left: 3rem;
   padding-bottom: 3rem;
-  font-family: 'Arimo';
+  font-family: 'Montserrat-Bold';
   font-weight:500;
   font-size: 2.5rem;
   margin-bottom: 0px;
@@ -401,12 +418,12 @@ color: black;
 }
 
 .lienstyle2 {
-  font-size: 20px;
+  font-size: 25px;
   color: black;
 }
 
 .mb-0 {
-  font-family: 'Montserrat';
+  font-family: 'Raleway';
 }
 
 /***************************************************** Media query */
@@ -422,8 +439,8 @@ color: black;
     padding-left: 10px;
   }
 
-  .positionbuttontitle{
-    bottom:-100px;
+  .myButton2{
+    bottom: 1px;
   }
 }
 
@@ -433,10 +450,10 @@ color: black;
   .titresite {
     color: white;
     font-size: 60px;
-    bottom: 200px;
+    bottom: 180px;
     padding-right: 100px;
   }
-  .positionbuttontitle{
+  .myButton2{
     bottom: -100px;
   }
 
@@ -446,11 +463,11 @@ color: black;
 @media only screen and (min-width: 768px) {
   .titresite {
     color: white;
-    bottom: 280px;
+    bottom: 300px;
     font-size: 60px;
   }
-  .positionbuttontitle{
-    bottom: -180px;
+  .myButton2{
+    bottom: 250px;
   }
 
 }
@@ -462,7 +479,7 @@ color: black;
     font-size: 70px;
     bottom: 250px;
   }
-  .positionbuttontitle{
+  .myButton2{
     bottom: -50px;
   }
 
@@ -477,8 +494,8 @@ color: black;
 
   }
 
-  .positionbuttontitle{
-    bottom: -150px;
+  .myButton2{
+    bottom: 100px;
   }
 
   .coloneoffre {
