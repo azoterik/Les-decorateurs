@@ -17,18 +17,19 @@
 
   <!-- CSS styleshets -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
-  
-  <!-- Mail Chimp -->
-  
-  <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/31bc1be6e65bc3c54649d0672/3533ec1dadb3560a50a71ab7c.js");</script>
-  
+<!-- Mail Chimp -->
+
+<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/31bc1be6e65bc3c54649d0672/3533ec1dadb3560a50a71ab7c.js");</script>
+
+
+
 </head>
 
 <body>
@@ -39,7 +40,7 @@
 
 <nav class="navbar fixed-top navbar-expand-lg shadow-sm p-3 mb-5 bg-white rounded" style="background-color: white";>
   <a class="navtext navbar-brand" href="#">
-  
+
   Les Décorateurs
 </a>
 
@@ -80,21 +81,21 @@
 
   <div class="carousel-inner">
     <div class="carousel-item active">
-        <p> J'aimerais agrandir une pièce sans casser de mur.</p>
+        <p> <b>J'aimerais agrandir une pièce sans casser de mur.</b></p>
     </div>
     <div class="carousel-item">
-      <p> J'ai besoin d'idées déco pour mon appart.</p>
+      <p> <b>J'ai besoin d'idées déco pour mon appart.</b></p>
     </div>
     <div class="carousel-item">
-      <p> Je dois meubler ma maison avec un budget réaliste.</p>
+      <p> <b>Je dois meubler ma maison avec un budget réaliste.</b></p>
     </div>
 
   </div>
 </div>
 
-<a href="https://lesdecorateurscontact.typeform.com/to/yNNN0O3N" class="positionbuttontitle myButton2">Définissez votre style</a>
-
 </div>
+
+<a href="https://lesdecorateurscontact.typeform.com/to/yNNN0O3N" class="myButton2">Définissez votre style</a>
 
 
 <!-- Explication -->
@@ -119,12 +120,12 @@
 <img class="explicationimage" src="Images/2.png" alt="">
     <h2 class="explicationchiffre">2.</h2>
     <h3 class="explicationtitre">Nous selectionnons le décorateur idéal.</h3>
-    <p class="explicationtexte">Enfilez un jogging, prenez un verre de vin et détendez-vous. Notre algorithme selectionnera le décorateure qui saura répondre au mieux à vos envies. Notre Décorateur créera une conception 3D en prenant en comptes vos envies.
+    <p class="explicationtexte">Enfilez un jogging, prenez un verre de vin et détendez-vous. Notre algorithme selectionnera le décorateur qui saura répondre au mieux à vos envies. Notre Décorateur créera une conception 3D en prenant en comptes vos envies.
       Enfin, notre Décorateur rentrera en contact avec vous, afin d’être sur que vous soyez 100% satisfait.</p>
 </div>
 
 <div class="explicationcase3 col-lg-4 col-md-8">
-<img class="explicationimage" src="Images/3.png" alt="">
+<img class="explicationimage explicationimg3" src="Images/3.png" alt="">
     <h2 class="explicationchiffre">3.</h2>
     <h3 class="explicationtitre">Nous vous accompagnons jusqu'au bout.</h3>
     <p class="explicationtexte">Une fois le design validé, achetez votre mobilier directement en ligne avec le catalogue que nous vous fournierons.</p>
@@ -149,7 +150,25 @@
 <div class="bouttonoffre1">
   <a href="https://lesdecorateurscontact.typeform.com/to/yNNN0O3N" class="myButton3">Commencez avec Classique</a>
 </div>
-<p class="detailoffre">Plus de détails.</p>
+<p>
+<a class="detailtexte" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Détail des offres</a>
+<div class="row">
+<div class="col">
+  <div class="collapse multi-collapse" id="multiCollapseExample1">
+    <div class="texteoffre card card-body">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Echangez en direct avec un Décorateur d'intérieur via mail ou téléphone</li>
+        <li class="list-group-item">Recevez 2 propositions de plans </li>
+        <li class="list-group-item">Visualisez votre nouvelle pièce grace à des plans Plan 2D</li>
+        <li class="list-group-item">Projetez vous via des plans d'aménagement 3D</li>
+        <li class="list-group-item">Revisez jusqu'a 3 fois les plans proposés</li>
+        <li class="list-group-item">Achetez grâce à la liste des meubles ainsi que leur lien sur internet</li>
+        <li class="list-group-item">Le projet vous est délivré en 7 jours ouvrés</li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
 </div>
 
 <div class="coloneoffre col-lg-4 col-md-8">
@@ -161,7 +180,27 @@
 <div class="bouttonoffre2">
   <a href="https://lesdecorateurscontact.typeform.com/to/yNNN0O3N" class="myButton4">Commencez avec Premium</a>
 </div>
-<p class="detailoffre">Plus de détails.</p>
+<p>
+  <p></p>
+  <p></p>
+<div class="row">
+<div class="col">
+  <div class="collapse multi-collapse" id="multiCollapseExample1">
+    <div class="texteoffre card card-body">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Echangez en direct avec un Architecte d'intérieur via mail ou téléphone</li>
+        <li class="list-group-item">Recevez 3 propositions de plans </li>
+        <li class="list-group-item">Visualisez votre nouvelle pièce grace à des plans Plan 2D</li>
+        <li class="list-group-item">Projetez vous via des plans d'aménagement 3D</li>
+        <li class="list-group-item">Visualisez votre projet à 180°</li>
+        <li class="list-group-item">Revisez les plans proposés jusqu'à ce que vous soyez 100% Satisfait</li>
+        <li class="list-group-item">Achetez grâce à la liste des meubles ainsi que leur lien sur internet</li>
+        <li class="list-group-item">Le projet vous est délivré en 7 jours ouvrés</li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
 </div>
 </section>
 
@@ -191,8 +230,8 @@
 
           <div class="carouselitem2 col-lg-5">
 
-          <h2 class="testimonial-text2">Conçu par <em>Louise Rivoilon</em></h2>
-          <h2 class="testimonial-text2">pour Emmanuel P.</h2>
+          <h2 class="testimonial-text2">Conçu par <em>Faliana Machaoni</em></h2>
+          <h2 class="testimonial-text2">pour Pauline A.</h2>
           <p class="ville">Bordeaux, France</p>
           <div class="star row">
             <i class="star fas fa-star"></i>
@@ -201,9 +240,9 @@
             <i class="star fas fa-star"></i>
             <i class="star fas fa-star"></i>
           </div>
-          <p class="testimonial-text"> À la recherche d'un aménagement de salle à manger qui compléterait la rénovation majeure de sa maison, Kory a travaillé avec sa designer Robyn pour créer un bel espace fonctionnel qui se démarque par un étonnant mélange de bois, de pierre, de lignes sombres et de teintes bleues profondes. Un relationnel fort, un processus simple et un résultat sans appel. Merci les décorateurs et à très vite pour de nouvelles pièces.</p>
-          <p class="ville"> <b>Budget :</b> 2000€</p>
-          <p class="ville"> <b>Style :</b> Bohème</p>
+          <p class="testimonial-text">Après l’achat de son premier appartement, Pauline avait besoin d’un coup de main pour trouver les meubles et la décoration qui lui correspondait.. Elle a donc fait appel aux Décorateurs  afin de meubler et décorer sa chambre. Grâce aux conseils de notre décoratrice Faliana, elle a pu créer l’espace parfait pour se détendre après une dure journée de travail.</p>
+          <p class="ville"> <b>Budget :</b> 1800€</p>
+          <p class="ville"> <b>Style :</b> Cosy</p>
           </div>
 
       </div>
@@ -220,8 +259,8 @@
 
         <div class="carouselitem2 col-lg-5">
 
-        <h2 class="testimonial-text2">Conçu par <em>Louise Rivoilon</em></h2>
-        <h2 class="testimonial-text2">pour Emmanuel P.</h2>
+        <h2 class="testimonial-text2">Conçu par <em>Carla Rilond</em></h2>
+        <h2 class="testimonial-text2">pour Clémence M.</h2>
         <p class="ville">Bordeaux, France</p>
         <div class="star row">
           <i class="star fas fa-star"></i>
@@ -230,8 +269,10 @@
           <i class="star fas fa-star"></i>
           <i class="star fas fa-star"></i>
         </div>
-        <p class="testimonial-text"> À la recherche d'un aménagement de salle à manger qui compléterait la rénovation majeure de sa maison, Kory a travaillé avec sa designer Robyn pour créer un bel espace fonctionnel qui se démarque par un étonnant mélange de bois, de pierre, de lignes sombres et de teintes bleues profondes. Un relationnel fort, un processus simple et un résultat sans appel. Merci les décorateurs et à très vite pour de nouvelles pièces.</p>
-        <p class="ville"> <b>Budget :</b> 2000€</p>
+        <p class="testimonial-text"> Clémence souhaitait refaire sa cuisine qui n’était plus à mon gout car un peu vieillotte. Elle a donc fait appel aux décorateurs pour rénover cette dernière.
+Clémence a travaillé avec son architecte d’intérieur Salomé pour créer un bel espace fonctionnel qui se démarque par un étonnant mélange de bois et de couleurs chaleureuses. Grace à un relationnel fort, un processus simple et un résultat sans appel, Clémence a été ravie de son expérience avec les décorateurs.
+</p>
+        <p class="ville"> <b>Budget :</b> 4000€</p>
         <p class="ville"> <b>Style :</b> Bohème</p>
         </div>
 
@@ -249,8 +290,8 @@
 
       <div class="carouselitem2 col-lg-5">
 
-      <h2 class="testimonial-text2">Conçu par <em>Louise Rivoilon</em></h2>
-      <h2 class="testimonial-text2">pour Emmanuel P.</h2>
+      <h2 class="testimonial-text2">Conçu par <em>Pierre Chéran</em></h2>
+      <h2 class="testimonial-text2">pour Salomé P.</h2>
       <p class="ville">Bordeaux, France</p>
       <div class="star row">
         <i class="star fas fa-star"></i>
@@ -259,9 +300,9 @@
         <i class="star fas fa-star"></i>
         <i class="star fas fa-star"></i>
       </div>
-      <p class="testimonial-text"> À la recherche d'un aménagement de salle à manger qui compléterait la rénovation majeure de sa maison, Kory a travaillé avec sa designer Robyn pour créer un bel espace fonctionnel qui se démarque par un étonnant mélange de bois, de pierre, de lignes sombres et de teintes bleues profondes. Un relationnel fort, un processus simple et un résultat sans appel. Merci les décorateurs et à très vite pour de nouvelles pièces.</p>
-      <p class="ville"> <b>Budget :</b> 2000€</p>
-      <p class="ville"> <b>Style :</b> Bohème</p>
+      <p class="testimonial-text">Après avoir soumis quelques photos de son intérieur et ses mesures, Salomé été très vite accompagné par Pierre, un Architecte d’intérieur de 23 ans. Il a rapidement su comprendre ses besoins en un rien de temps et a délivré une prestation qui a satisfait toutes les envies de Salomé. Cette cliente plus qu’heureuse a depuis, confié 2 autres projets qui seront réalisés avec Pierre.</p>
+      <p class="ville"> <b>Budget :</b> 1200€</p>
+      <p class="ville"> <b>Style :</b> Moderne</p>
       </div>
      </div>
      </div>
@@ -302,29 +343,31 @@
     <div class="row py-4 d-flex align-items-center">
 
       <!-- Grid column -->
-      <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-        <h6 class="mb-0">Suivez nous sur les réseaux sociaux !</h6>
-      </div>
+
       <!-- Grid column -->
 
       <!-- Grid column -->
       <div class="col-md-6 col-lg-7 text-center text-md-right">
 
         <!-- Facebook -->
-        <a class="lienstyle2" class="fb-ic" href="">
-          <i class="fab fa-facebook-f white-text mr-4"> </i>
+        <a class="lienstyle2" class="fb-ic" href="https://www.facebook.com/Les-décorateurs-106077904476633/?modal=admin_todo_tour">
+          <i class="fab fa-facebook-f white-text mr-3"> </i>
         </a>
         <!-- Twitter -->
         <a class="lienstyle2" class="tw-ic" href="">
-          <i class="fab fa-twitter white-text mr-4"> </i>
+          <i class="fab fa-twitter white-text mr-3"> </i>
         </a>
-        <!--Linkedin -->
+        <!--Pinterest -->
         <a class="lienstyle2" class="li-ic" href="">
-          <i class="fab fa-pinterest white-text mr-4"></i>
+          <i class="fab fa-pinterest white-text mr-3"></i>
         </a>
         <!--Instagram-->
+        <a class="lienstyle2" class="ins-ic" href="https://www.instagram.com/lesdecorateurs/?hl=en&fbclid=IwAR0YsD1feXVtXPEGOJ25WcDCCcpkfP6BLVI27UkYcHAEgtanUo8AhB8AluA">
+          <i class="fab fa-instagram white-text mr-3"> </i>
+        </a>
+        <!--Linkedin-->
         <a class="lienstyle2" class="ins-ic" href="">
-          <i class="fab fa-instagram white-text"> </i>
+        <i class="fab fa-linkedin-in"></i>
         </a>
 
       </div>
@@ -381,7 +424,7 @@
         <h6 class="text-uppercase font-weight-bold">Explorez</h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>
-          <a class="lienstyle" href="#!">Nos histoires</a>
+          <a class="lienstyle" href="#!">Notre histoire</a>
         </p>
         <p>
           <a class="lienstyle" href="#!">Centre d'aide</a>
