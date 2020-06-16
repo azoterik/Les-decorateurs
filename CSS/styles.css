@@ -11,7 +11,6 @@ html {
 scroll-behavior: smooth;
 }
 
-
 /***************************************************** Nav bar */
 
 .navbar{
@@ -34,6 +33,11 @@ font-size: 14px;
 color: black;
 }
 
+.navtext:hover {
+  color: #32566F;
+}
+
+
 .colornav{
   background-color: black;
 }
@@ -53,7 +57,7 @@ color: black;
 .myButton:hover {
 	background-color:#292029;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .myButton:active {
 	position:relative;
@@ -311,7 +315,7 @@ padding-bottom: 1%;
 }
 
 .explicationimg3{
-  padding-bottom: 92px;
+  padding-bottom: 22%;
 }
 
 .explicationtitre {
@@ -404,11 +408,11 @@ font-weight: 600;
 }
 
 .myButton3 {
-	background-color:#fcf9fc;
+	background-color:#2B4E67;
 	border-radius:28px;
 	display:inline-block;
 	cursor:pointer;
-	color:#000000;
+	color:white;
 	font-family:'Montserrat', sans-serif;
 	font-size:13px;
 	font-weight:bold;
@@ -426,27 +430,6 @@ font-weight: 600;
 	top:1px;
 }
 
-.myButton4 {
-	background-color:#000000;
-	border-radius:35px;
-	border:1px solid #ffffff;
-	display:inline-block;
-	cursor:pointer;
-	color:#fcf7fc;
-	font-family:'Montserrat', sans-serif;
-	font-size:13px;
-	padding:18px 30px;
-	text-decoration:none;
-}
-.myButton4:hover {
-	background-color:#292029;
-  text-decoration: none;
-  color: black;
-}
-.myButton4:active {
-	position:relative;
-	top:1px;
-}
 
 .texteoffre {
   font-family: 'Raleway';
