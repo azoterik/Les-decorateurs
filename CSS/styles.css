@@ -2,7 +2,15 @@
 * {
   padding: 0;
   margin: 0;
+  -moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
 }
+
+html {
+scroll-behavior: smooth;
+}
+
 
 /***************************************************** Nav bar */
 
@@ -85,19 +93,21 @@ color: black;
 
 .PhotoAccueil {
 width: 100%;
-height: 800px;
+height: 760px;
 object-fit: cover;
 }
+
 
 .titresite {
   position: absolute;
   font-size: 4rem;
-  color: white;
+  color: #FDFDFD;
+  text-shadow: grey 0px 0px 10px;
   font-family: 'Montserrat', sans-serif;
   font-weight:800px;
   padding-left: 50px;
   padding-right: 200px;
-  bottom: 400px;
+  bottom: 370px;
 }
 
 .myButton2 {
@@ -113,9 +123,10 @@ object-fit: cover;
 	text-decoration:none;
 	text-shadow:0px 0px 0px #2f6627;
   position: absolute;
-  bottom: 210px;
+  bottom: 230px;
   left: 60px;
 }
+
 .myButton2:hover {
 	background-color:#f7eff7;
   text-decoration: none;
@@ -127,9 +138,140 @@ object-fit: cover;
 	top:1px;
 }
 
-/***************************************************** Intermédiaire */
+/********************************************************* Flèche */
+
+html, body {
+  height:100%;
+}
+
+.main {
+  float:left;
+  width:100%;
+  background:#fff;
+  position:relative;
+}
+
+/* the important styles */
+
+.arrow-wrap {
+  position:absolute;
+  left:50%;
+  top:-5em;
+  margin-left:-5em;
+  background:#111;
+  width:10em;
+  height:10em;
+  padding:4em 2em;
+  border-radius:50%;
+  font-size:0.5em;
+  display:block;
+  box-shadow:0px 0px 5px 0px #333;
+}
+
+.arrow {
+  float:left;
+  position:relative;
+  width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 3em 3em 0 3em;
+border-color: #ffffff transparent transparent transparent;
+  -webkit-transform:rotate(360deg)
+}
+
+.arrow:after {
+  content:'';
+  position:absolute;
+  top:-3.2em;
+  left:-3em;
+  width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 3em 3em 0 3em;
+border-color: #111 transparent transparent transparent;
+  -webkit-transform:rotate(360deg)
+}
+
+.arrow-wrap:hover .hint {
+  opacity:1;
+}
+
+  @-webkit-keyframes arrows {
+    0% { top:0; }
+    10% { top:12%; }
+    20% { top:0; }
+    30% { top:12%; }
+    40% { top:-12%; }
+    50% { top:12%; }
+    60% { top:0; }
+    70% { top:12%; }
+    80% { top:-12%; }
+    90% { top:12%; }
+    100% { top:0; }
+  }
+
+  .arrow-wrap .arrow {
+    -webkit-animation: arrows 2.8s 0.4s;
+    -webkit-animation-delay: 6s;
+  }
 
 
+/********************************************************* Presentation generale du concept */
+
+.titrePresentationproduit {
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:800px;
+  padding-top: 50px;
+  padding-left: 90px;
+  padding-right: 20px;
+}
+
+.appostrophe {
+  font-size: 70px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:800px;
+}
+
+.photospirale {
+  width: 300px;
+  height: auto;
+  width: 700px;
+  padding-top: 200px;
+  padding-left: 380px;
+}
+
+.photofemme {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  top: 120px;
+  left: 100px;
+}
+
+.signature3 {
+  font-family: 'Reenie Beanie';
+  font-size: 40px;
+  padding-left: 350px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.iconpresentation {
+  height: 80px;
+  padding-left: 75px;
+  padding-bottom: 20px;
+}
+
+.trianglebas{
+  width: 100%;
+  height:auto;
+}
+
+.detailPresentationproduit {
+  font-family: 'Raleway';
+  padding-left: 26px;
+}
 /***************************************************** Explication */
 
 #Explication {
@@ -183,8 +325,9 @@ font-size: 20px;
 .explicationtexte {
   font-family: 'Raleway';
   padding-left: 50px;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   padding-bottom: 50px;
+  padding-right: 50px;
 
 }
 
@@ -213,7 +356,6 @@ font-size: 20px;
 .coloneblock {
   padding-top: 8%;
   padding-left: 25%;
-  padding-bottom: 8%;
 }
 
 .coloneoffre {
@@ -436,29 +578,61 @@ color: black;
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .titresite {
-    color: white;
+    color: #FDFDFD;
+    text-shadow: grey 0px 0px 10px;
     font-size: 45px;
-    bottom:200px;
+    bottom:170px;
     padding-right: 10px;
     padding-left: 10px;
   }
 
   .myButton2{
-    bottom: 1px;
+    font-size:15px;
+    bottom: 100px;
   }
+
+  .photofemme {
+    width: 40%;
+    padding-bottom: 10px;
+    height: 500px;
+    object-fit: cover;
+  }
+
+  .photospirale {
+    height: 600px;
+    width: 10px;
+    visibility: hidden;
+  }
+
+.signature3 {
+  padding-left: 50px;
+}
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
 @media only screen and (min-width: 600px) {
   .titresite {
-    color: white;
-    font-size: 60px;
-    bottom: 180px;
+    color: #FDFDFD;
+    text-shadow: grey 0px 0px 10px;
+    font-size: 50px;
+    bottom: 250px;
     padding-right: 100px;
   }
   .myButton2{
-    bottom: -100px;
+    bottom: 100px;
+  }
+
+  .photofemme {
+    width: 70%;
+    padding-bottom: 10px;
+    height: 500px;
+    object-fit: cover;
+  }
+
+  .titrePresentationproduit{
+    padding-top: 60px;
   }
 
 }
@@ -466,12 +640,13 @@ color: black;
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .titresite {
-    color: white;
-    bottom: 300px;
+    color: #FDFDFD;
+    text-shadow: grey 0px 0px 10px;
+    bottom: 250px;
     font-size: 60px;
   }
   .myButton2{
-    bottom: 250px;
+    bottom: 150px;
   }
 
 }
@@ -479,12 +654,17 @@ color: black;
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .titresite {
-    color: white;
+    color: #FDFDFD;
+    text-shadow: grey 0px 0px 10px;
     font-size: 70px;
     bottom: 250px;
   }
   .myButton2{
-    bottom: -50px;
+    bottom: 50px;
+  }
+
+  .photospirale{
+    visibility: hidden;
   }
 
 }
@@ -492,7 +672,8 @@ color: black;
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .titresite {
-    color: white;
+    color: #FDFDFD;
+    text-shadow: grey 0px 0px 10px;
     font-size: 70px;
     bottom: 300px;
 
@@ -504,6 +685,10 @@ color: black;
 
   .coloneoffre {
     padding: 0px;
+  }
+
+  .photospirale{
+    visibility:visible;
   }
 
 }
