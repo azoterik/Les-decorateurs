@@ -1,0 +1,956 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  -moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+/***************************************************** Nav bar */
+
+.navbar{
+font-family: 'Raleway';
+font-weight: bold;
+}
+
+.navpadding {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.navdiv {
+  padding-right: 15px;
+  background-color: white;
+}
+
+.navtext {
+font-size: 14px;
+color: black;
+padding-left: 70px;
+}
+
+.collapse {
+padding-right: 70px;
+}
+
+.navtext:hover {
+  color: #32566F;
+}
+
+.myButton {
+	background-color:#000000;
+	border-radius:35px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#fcf7fc;
+	font-family:'Raleway';
+	font-size:12px;
+	padding:8px 20px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#2B4E67;
+  text-decoration: none;
+  color: white;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton6 {
+	background-color: black;
+	border-radius:35px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family:'Raleway';
+	font-size:14px;
+	padding:8px 20px;
+	text-decoration:none;
+}
+.myButton6:hover {
+	background-color:#2B4E67;
+  text-decoration: none;
+  color: white;
+}
+.myButton6:active {
+	position:relative;
+	top:1px;
+}
+
+/***************************************************** Lending Menu */
+
+#carouselExampleSlidesOnly {
+  width: 80%;
+  height:45%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:800px;
+}
+
+.PhotoAccueil {
+width: 100%;
+height: 760px;
+object-fit: cover;
+}
+
+.titresite {
+  position: absolute;
+  font-size: 4rem;
+  color: #FDFDFD;
+  text-shadow: grey 0px 0px 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:800px;
+  padding-left: 50px;
+  padding-right: 200px;
+  bottom: 370px;
+}
+
+.myButton2 {
+	background-color:white;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color: black;
+	font-family:'Raleway';
+	font-size:18px;
+	font-weight:bold;
+	padding:18px 60px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #2f6627;
+  position: absolute;
+  bottom: 230px;
+  left: 60px;
+}
+
+.myButton2:hover {
+	background-color:#2B4E67;
+  text-decoration: none;
+  color: white;
+
+}
+.myButton2:active {
+	position:absolute;
+	top:1px;
+}
+
+/********************************************************* Flèche */
+
+html, body {
+  height:100%;
+}
+
+.main {
+  float:left;
+  width:100%;
+  background:#fff;
+  position:relative;
+}
+
+/* the important styles */
+
+.arrow-wrap {
+  position:absolute;
+  left:50%;
+  top:-5em;
+  margin-left:-5em;
+  background:#E2A8A9;
+  width:10em;
+  height:10em;
+  padding:4em 2em;
+  border-radius:50%;
+  font-size:0.5em;
+  display:block;
+  box-shadow:0px 0px 5px 0px #333;
+}
+
+.arrow {
+  float:left;
+  position:relative;
+  width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 3em 3em 0 3em;
+border-color: #ffffff transparent transparent transparent;
+  -webkit-transform:rotate(360deg)
+}
+
+.arrow:after {
+  content:'';
+  position:absolute;
+  top:-3.2em;
+  left:-3em;
+  width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 3em 3em 0 3em;
+border-color: #E2A8A9 transparent transparent transparent;
+  -webkit-transform:rotate(360deg)
+}
+
+.arrow-wrap:hover .hint {
+  opacity:1;
+}
+
+  @-webkit-keyframes arrows {
+    0% { top:0; }
+    10% { top:12%; }
+    20% { top:0; }
+    30% { top:12%; }
+    40% { top:-12%; }
+    50% { top:12%; }
+    60% { top:0; }
+    70% { top:12%; }
+    80% { top:-12%; }
+    90% { top:12%; }
+    100% { top:0; }
+  }
+
+  .arrow-wrap .arrow {
+    -webkit-animation: arrows 2.8s 0.4s;
+    -webkit-animation-delay: 6s;
+  }
+
+
+/********************************************************* Presentation generale du concept */
+
+.titrePresentationproduit {
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:800px;
+  padding-top: 50px;
+  padding-left: 90px;
+  padding-right: 20px;
+}
+
+.appostrophe {
+  font-size: 70px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:800px;
+}
+
+.photospirale {
+  width: 300px;
+  height: auto;
+  width: 700px;
+  padding-top: 200px;
+  padding-left: 380px;
+}
+
+.photofemme {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  top: 120px;
+  left: 100px;
+}
+
+.signature3 {
+  font-family: 'Reenie Beanie';
+  font-size: 40px;
+  padding-left: 350px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.iconpresentation {
+  height: 80px;
+  padding-left: 75px;
+  padding-bottom: 20px;
+}
+
+.trianglebas{
+  width: 100%;
+  height:auto;
+}
+
+.detailPresentationproduit {
+  font-family: 'Raleway';
+  padding-left: 26px;
+}
+/***************************************************** Explication */
+
+#Explication {
+background-color: #EEEEEE;
+padding-bottom: 1%;
+}
+
+.ExplicationTitre {
+  font-family: 'Montserrat', sans-serif;
+  font-weight:500;
+  font-size: 2.5rem;
+  padding-left: 50px;
+  padding-top: 850px;
+  padding-bottom: 50px;
+  position: relative;
+}
+.zigzag {
+  position: absolute;
+  width:100%;
+  height: auto;
+}
+
+.explicationchiffre {
+  font-family: 'Raleway';
+  font-weight:500;
+  font-size: 3.5rem;
+  color: black;
+  padding-left: 50px;
+}
+
+.explicationimage {
+  width: 100%;
+  padding-bottom: 15%;
+  padding-left: 15%;
+  align-items: center;
+}
+
+.explicationimg3{
+  padding-bottom: 22%;
+}
+
+.explicationtitre {
+font-family: 'Raleway';
+font-weight: bold;
+padding-left: 50px;
+padding-right: 50px;
+font-size: 20px;
+}
+
+.explicationtexte {
+  font-family: 'Raleway';
+  padding-left: 50px;
+  font-size: 0.9rem;
+  padding-bottom: 50px;
+  padding-right: 50px;
+
+}
+
+.explicationcase1{
+  padding: 0px;
+}
+
+.explicationcase2{
+  padding: 0px;
+}
+
+.explicationcase3{
+  padding: 0px;
+}
+
+/***************************************************** Nos offres */
+
+#Offre {
+  background-color: white;
+}
+
+.ligne {
+   border-top: 2px solid black;
+}
+
+.coloneblock {
+  padding-top: 8%;
+  padding-left: 25%;
+}
+
+.coloneoffre {
+align-items: center;
+border-left: : 20%;
+box-shadow: 0px 1px 19px -7px rgba(179,175,175,1);
+margin-right: 110px;
+margin-bottom: 100px;
+}
+
+.typeoffre{
+font-size: 1.5rem;
+padding-top: 8%;
+padding-left: 7%;
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+}
+
+.prix {
+  font-family: 'Raleway';
+  font-size: 2.5rem;
+  padding-left: 65%;
+}
+
+.imageoffre {
+  height: 250px;
+  width: 250px;
+}
+
+.descriptionoffre {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  font-family: 'Raleway';
+}
+
+.bouttonoffre1 {
+  padding-top: 25px;
+  padding-bottom: 40px;
+  padding-left: 15%;
+}
+
+.bouttonoffre2 {
+  padding-bottom: 40px;
+  padding-left: 15%;
+}
+
+.myButton3 {
+	background-color:#2B4E67;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family:'Montserrat', sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	padding:17px 30px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #2f6627;
+}
+.myButton3:hover {
+	background-color:#f7eff7;
+  text-decoration: none;
+  color: black;
+}
+.myButton3:active {
+	position:relative;
+	top:1px;
+}
+
+
+.texteoffre {
+  font-family: 'Raleway';
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.detailtexte {
+  color: black;
+  font-family:'Raleway';
+}
+
+.detailtexte:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+/***************************************************** Photo intermédiaire */
+
+.photointermédiarie {
+  width: 100%;
+  height: auto;
+}
+
+
+/***************************************************** Communauté */
+
+#Communauté {
+  padding-bottom: 30px;
+}
+
+.text-block3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight:500;
+  font-size: 2.5rem;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.carouselcommunauté {
+    background-color: white;
+    margin-bottom: 100px;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: url("https://images.unsplash.com/photo-1447433589675-4aaa569f3e05?ixlib=rb-0.3.5&s=4222852e25e0f57d9485f7889957e99a&auto=format&fit=crop&w=2000&q=80");
+  background-size: cover;
+  background: #ccc;
+  background-position: 0 50%;
+}
+
+.background:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0);
+}
+
+.outer-div,
+.inner-div {
+  height: 450px;
+  max-width: 300px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.outer-div {
+  -webkit-perspective: 900px;
+          perspective: 900px;
+  -webkit-perspective-origin: 50% calc(50% - 18em);
+          perspective-origin: 50% calc(50% - 18em);
+}
+
+.inner-div {
+  margin: 50px auto;
+  border-radius: 5px;
+  font-weight: 400;
+  color: #071011;
+  font-size: 1rem;
+  text-align: center;
+  -webkit-transition: all 0.6s cubic-bezier(0.8, -0.4, 0.2, 1.7);
+  transition: all 0.6s cubic-bezier(0.8, -0.4, 0.2, 1.7);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+
+}
+.inner-div:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  background-color: transparent;
+}
+.inner-div:hover .social-icon {
+  opacity: 1;
+  top: 0;
+}
+.inner-div:hover .front__face-photo, .inner-div:hover .front__footer {
+  opacity: 0;
+}
+
+.front,
+.back {
+  position: relative;
+  top: 0;
+  left: 0;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.front {
+  cursor: pointer;
+  height: 100%;
+  background: #fff;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border-radius: 5px;
+  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.front__bkg-photo {
+  position: relative;
+  height: 150px;
+  width: 300px;
+  background: url("https://images.unsplash.com/photo-1556910638-6cdac31d44dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1001&q=80") no-repeat;
+  background-size: cover;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  overflow: hidden;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.front__bkg-photo:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.front__face-photo {
+  position: relative;
+  top: -60px;
+  height: 120px;
+  width: 120px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  background-size: contain;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  overflow: hidden;
+  -webkit-transition: all 0.6s cubic-bezier(0.8, -0.4, 0.2, 1.7);
+  transition: all 0.6s cubic-bezier(0.8, -0.4, 0.2, 1.7);
+  z-index: 3;
+}
+
+.imagedecorateur{
+  width: 110px;
+  height: auto;
+
+}
+
+.front__text {
+  position: relative;
+  top: -55px;
+  margin: 0 auto;
+  font-family: "Montserrat";
+  font-size: 18px;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+.front__text .front__text-header {
+  font-weight: 700;
+}
+.front__text .front__text-para {
+  position: relative;
+  top: -5px;
+  color: #000;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+.front__text .front-icons {
+  position: relative;
+  top: 0;
+  font-size: 14px;
+  margin-right: 6px;
+  color: gray;
+}
+.front__text .front__text-hover {
+  position: relative;
+  top: 10px;
+  font-size: 10px;
+  color: #E2A8A9;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 2px solid #E2A8A9;
+  padding: 8px 15px;
+  border-radius: 30px;
+  background: #E2A8A9;
+  color: #fff;
+  box-shadow: 0 11px 20px -12px rgba(0, 0, 0, 0.6);
+}
+
+.back {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  /* arrière de la plaquette */
+  background-color: #FAEFE6;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.social-media-wrapper {
+  font-size: 36px;
+}
+.social-media-wrapper .social-icon {
+  position: relative;
+  top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  opacity: 0;
+  color: #fff;
+  -webkit-transition: all 0.4s cubic-bezier(0.3, 0.7, 0.1, 1.9);
+  transition: all 0.4s cubic-bezier(0.3, 0.7, 0.1, 1.9);
+}
+.social-media-wrapper .social-icon:nth-child(1) {
+  -webkit-transition-delay: 0.6s;
+          transition-delay: 0.6s;
+}
+.social-media-wrapper .social-icon:nth-child(2) {
+  -webkit-transition-delay: 0.7s;
+          transition-delay: 0.7s;
+}
+.social-media-wrapper .social-icon:nth-child(3) {
+  -webkit-transition-delay: 0.8s;
+          transition-delay: 0.8s;
+}
+.social-media-wrapper .social-icon:nth-child(4) {
+  -webkit-transition-delay: 0.9s;
+          transition-delay: 0.9s;
+}
+
+.fab {
+  position: relative;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+.fab:hover {
+  top: -5px;
+}
+
+.descrpitiondecorateur1{
+  padding-top: 20px;
+  color:black;
+  font-size: 18px;
+  font-family: 'Montserrat'
+}
+
+.descrpitiondecorateur{
+  color: grey;
+  font-size: 13px;
+  font-family: 'Montserrat'
+}
+
+.logopng {
+  width: 95px;
+  height: auto;
+}
+
+/* middle */
+
+.photointermediaire {
+  width: 100%;
+  height: auto;
+}
+
+
+/***************************************************** Temoignage */
+
+.imagemaman {
+  width: 100%;
+  height: auto;
+  padding: 0px;
+}
+
+.retourexperience{
+  font-family: 'Raleway';
+  font-weight: bold;
+  font-size: 2rem;
+  padding-top: 120px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.divretour{
+  background-color: #2B4E67;
+  color: white;
+}
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  & > [class^="col-"],
+  & > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+
+/***************************************************** CTA FINAL */
+
+
+.ctafinal {
+  background-color: #F9EADD;
+}
+
+.ctafinalphrase {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  padding: 100px;
+  color: black;
+}
+
+.imagectafinal {
+  width: 90%;
+  position: relative;
+  height: auto;
+  top: 200px;
+
+}
+
+
+.derniercta {
+  position:relative;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+
+/***************************************************** Footer */
+
+.lienstyle {
+  color: black;
+}
+.lienstyle:hover {
+color: black;
+}
+
+.page-footer{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+}
+
+.lienstyle2 {
+  font-size: 25px;
+  color: black;
+}
+
+.mb-0 {
+  font-family: 'Raleway';
+}
+
+.lienmail {
+  text-decoration: none;
+}
+
+.lienmail:hover {
+  text-decoration: none;
+}
+
+/***************************************************** Media query */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .titresite {
+    color: #FDFDFD;
+    text-shadow: grey 0px 0px 10px;
+    font-size: 45px;
+    bottom:170px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .myButton2{
+    font-size:15px;
+    bottom: 100px;
+  }
+
+  .photofemme {
+    width: 40%;
+    padding-bottom: 10px;
+    height: 500px;
+    object-fit: cover;
+  }
+
+  .photospirale {
+    height: 600px;
+    width: 10px;
+    visibility: hidden;
+  }
+
+.signature3 {
+  padding-left: 50px;
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+  .titresite {
+    color: #FDFDFD;
+    text-shadow: grey 0px 0px 10px;
+    font-size: 50px;
+    bottom: 250px;
+    padding-right: 100px;
+  }
+  .myButton2{
+    bottom: 100px;
+  }
+
+  .photofemme {
+    width: 70%;
+    padding-bottom: 10px;
+    height: 500px;
+    object-fit: cover;
+  }
+
+  .titrePresentationproduit{
+    padding-top: 60px;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .titresite {
+    color: #FDFDFD;
+    text-shadow: grey 0px 0px 10px;
+    bottom: 250px;
+    font-size: 60px;
+  }
+  .myButton2{
+    bottom: 150px;
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .titresite {
+    color: #FDFDFD;
+    text-shadow: grey 0px 0px 10px;
+    font-size: 70px;
+    bottom: 250px;
+  }
+  .myButton2{
+    bottom: 50px;
+  }
+
+  .photospirale{
+    visibility: hidden;
+  }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .titresite {
+    color: #FDFDFD;
+    text-shadow: grey 0px 0px 10px;
+    font-size: 70px;
+    bottom: 300px;
+
+  }
+
+  .myButton2{
+    bottom: 100px;
+  }
+
+  .coloneoffre {
+    padding: 0px;
+  }
+
+  .photospirale{
+    visibility:visible;
+  }
+
+}
+
+@media (max-width: 1000px) {
+  .zigzag {
+    visibility: hidden;
+  }
+}
