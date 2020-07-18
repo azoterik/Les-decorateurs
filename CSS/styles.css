@@ -39,7 +39,7 @@ padding-right: 70px;
 }
 
 .navtext:hover {
-  color: #32566F;
+  color: #af502b;
 }
 
 .myButton {
@@ -55,7 +55,7 @@ padding-right: 70px;
 	text-decoration:none;
 }
 .myButton:hover {
-	background-color:#2B4E67;
+	background-color:#af502b;
   text-decoration: none;
   color: white;
 }
@@ -77,7 +77,7 @@ padding-right: 70px;
 	text-decoration:none;
 }
 .myButton6:hover {
-	background-color:#2B4E67;
+	background-color:#af502b;
   text-decoration: none;
   color: white;
 }
@@ -88,52 +88,50 @@ padding-right: 70px;
 
 /***************************************************** Lending Menu */
 
-#carouselExampleSlidesOnly {
-  width: 80%;
-  height:45%;
-  font-family: 'Montserrat', sans-serif;
-  font-weight:800px;
+.imagelanding {
+position: relative;
+width: 90%;
+height: auto;
+bottom: 20px;
 }
 
-.PhotoAccueil {
-width: 100%;
-height: 760px;
-object-fit: cover;
+.titre1 {
+  padding-top: 140px;
+  padding-left: 100px;
+  font-size: 55px;
+  font-family: 'Montserrat'
 }
 
-.titresite {
-  position: absolute;
-  font-size: 4rem;
-  color: #FDFDFD;
-  text-shadow: grey 0px 0px 10px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight:800px;
-  padding-left: 50px;
-  padding-right: 200px;
-  bottom: 370px;
+.titre2{
+  padding-top: 20px;
+  padding-left: 100px;
+  font-size: 35px;
+  font-family: 'Raleway'
 }
+
 
 .myButton2 {
-	background-color:white;
+	background-color:#af502b;
 	border-radius:28px;
 	display:inline-block;
 	cursor:pointer;
-	color: black;
+	color: white;
 	font-family:'Raleway';
 	font-size:18px;
 	font-weight:bold;
-	padding:18px 60px;
+	padding:20px 80px;
 	text-decoration:none;
 	text-shadow:0px 0px 0px #2f6627;
   position: absolute;
-  bottom: 230px;
-  left: 60px;
+  bottom: 120px;
+  left: 100px;
+  z-index: 1;
 }
 
 .myButton2:hover {
-	background-color:#2B4E67;
+	background-color: #EEEEEE;
   text-decoration: none;
-  color: white;
+  color: #af502b;
 
 }
 .myButton2:active {
@@ -141,209 +139,71 @@ object-fit: cover;
 	top:1px;
 }
 
-/********************************************************* Flèche */
-
-html, body {
-  height:100%;
-}
-
-.main {
-  float:left;
-  width:100%;
-  background:#fff;
-  position:relative;
-}
-
-/* the important styles */
-
-.arrow-wrap {
-  position:absolute;
-  left:50%;
-  top:-5em;
-  margin-left:-5em;
-  background:#E2A8A9;
-  width:10em;
-  height:10em;
-  padding:4em 2em;
-  border-radius:50%;
-  font-size:0.5em;
-  display:block;
-  box-shadow:0px 0px 5px 0px #333;
-}
 
 .arrow {
-  float:left;
-  position:relative;
-  width: 0px;
-height: 0px;
-border-style: solid;
-border-width: 3em 3em 0 3em;
-border-color: #ffffff transparent transparent transparent;
-  -webkit-transform:rotate(360deg)
-}
-
-.arrow:after {
-  content:'';
-  position:absolute;
-  top:-3.2em;
-  left:-3em;
-  width: 0px;
-height: 0px;
-border-style: solid;
-border-width: 3em 3em 0 3em;
-border-color: #E2A8A9 transparent transparent transparent;
-  -webkit-transform:rotate(360deg)
-}
-
-.arrow-wrap:hover .hint {
-  opacity:1;
-}
-
-  @-webkit-keyframes arrows {
-    0% { top:0; }
-    10% { top:12%; }
-    20% { top:0; }
-    30% { top:12%; }
-    40% { top:-12%; }
-    50% { top:12%; }
-    60% { top:0; }
-    70% { top:12%; }
-    80% { top:-12%; }
-    90% { top:12%; }
-    100% { top:0; }
-  }
-
-  .arrow-wrap .arrow {
-    -webkit-animation: arrows 2.8s 0.4s;
-    -webkit-animation-delay: 6s;
-  }
-
-
-/********************************************************* Presentation generale du concept */
-
-.titrePresentationproduit {
-  font-size: 30px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight:800px;
-  padding-top: 50px;
-  padding-left: 90px;
-  padding-right: 20px;
-}
-
-.appostrophe {
-  font-size: 70px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight:800px;
-}
-
-.photospirale {
-  width: 300px;
-  height: auto;
-  width: 700px;
-  padding-top: 200px;
-  padding-left: 380px;
-}
-
-.photofemme {
-  width: 500px;
-  height: auto;
   position: absolute;
-  top: 120px;
-  left: 100px;
+  width: 90px;
+  right: 10px;
+  top: 610px;
+  z-index: -1;
 }
 
-.signature3 {
-  font-family: 'Reenie Beanie';
-  font-size: 40px;
-  padding-left: 350px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
 
-.iconpresentation {
-  height: 80px;
-  padding-left: 75px;
-  padding-bottom: 20px;
-}
-
-.trianglebas{
-  width: 100%;
-  height:auto;
-}
-
-.detailPresentationproduit {
-  font-family: 'Raleway';
-  padding-left: 26px;
-}
 /***************************************************** Explication */
 
-#Explication {
-background-color: #EEEEEE;
-padding-bottom: 1%;
+.numeroexplication {
+  font-size: 80px;
+  text-align: center;
+  font-family: 'Montserrat';
 }
 
-.ExplicationTitre {
-  font-family: 'Montserrat', sans-serif;
-  font-weight:500;
-  font-size: 2.5rem;
-  padding-left: 50px;
-  padding-top: 850px;
-  padding-bottom: 50px;
-  position: relative;
+.titreexplication {
+  font-size: 25px;
+  font-family: 'Montserrat';
+  text-align: center;
 }
-.zigzag {
-  position: absolute;
-  width:100%;
+
+.detailexplication{
+  font-size: 18px;
+  font-family: 'Raleway';
+  padding-top: 10px;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+
+.image1 {
+  width: 200px;
+  margin-left: 100px;
   height: auto;
+  align: center;
 }
 
-.explicationchiffre {
-  font-family: 'Raleway';
-  font-weight:500;
-  font-size: 3.5rem;
-  color: black;
-  padding-left: 50px;
+.image2 {
+  width: 220px;
+  margin-left: 100px;
+  height: auto;
+  align: center;
 }
 
-.explicationimage {
-  width: 100%;
-  padding-bottom: 15%;
-  padding-left: 15%;
-  align-items: center;
+/***************************************************** Middle 1 */
+
+.middle1 {
+position: absolute;
+width: 300px;
+top: 500px;
+z-index: -1;
 }
 
-.explicationimg3{
-  padding-bottom: 22%;
+.middle2 {
+position: absolute;
+transform: rotate(180deg);
+left: 1200px;
+width: 250px;
+z-index: 0;
 }
 
-.explicationtitre {
-font-family: 'Raleway';
-font-weight: bold;
-padding-left: 50px;
-padding-right: 50px;
-font-size: 20px;
-}
-
-.explicationtexte {
-  font-family: 'Raleway';
-  padding-left: 50px;
-  font-size: 0.9rem;
-  padding-bottom: 50px;
-  padding-right: 50px;
-
-}
-
-.explicationcase1{
-  padding: 0px;
-}
-
-.explicationcase2{
-  padding: 0px;
-}
-
-.explicationcase3{
-  padding: 0px;
-}
 
 /***************************************************** Nos offres */
 
@@ -405,7 +265,7 @@ font-weight: 600;
 }
 
 .myButton3 {
-	background-color:#2B4E67;
+	background-color:#af502b;
 	border-radius:28px;
 	display:inline-block;
 	cursor:pointer;
@@ -444,18 +304,146 @@ font-weight: 600;
   text-decoration: none;
 }
 
-/***************************************************** Photo intermédiaire */
+/***************************************************** Transition */
 
-.photointermédiarie {
-  width: 100%;
-  height: auto;
+.middle3 {
+position: absolute;
+right: 100px;
+top: 2100px;
+width: 200px;
+z-index: 0;
 }
 
+.middle4 {
+position: absolute;
+width: 200px;
+z-index: 0;
+}
+
+
+/***************************************************** Explication offre 95 */
+
+.eclat1 {
+  position: absolute;
+  width: 80px;
+  height: auto;
+  left: 400px;
+}
+
+.eclat2 {
+  position: absolute;
+  width: 80px;
+  height: auto;
+  right: 400px;
+  transform: rotate(180deg);
+}
+
+.lignepacktitre {
+  padding-top: 60px;
+  z-index: 1;
+  color: black;
+  font-family: 'Montserrat';
+  font-size: 30px;
+  text-align: center;
+}
+
+.lignepacktitre2 {
+  z-index: 1;
+  color: black;
+  font-family: 'Raleway';
+  font-size: 22px;
+  text-align: center;
+  padding-bottom:20px;
+}
+
+.lignepack {
+padding-top: 40px;
+padding-bottom: 80px;
+padding-left: 120px;
+padding-right: 120px;
+text-align: center;
+}
+
+.casecarre {
+  padding-left: 20px;
+}
+
+.imglignepack {
+  width: 60%;
+  height: auto;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.imglignepack1 {
+  width: 100%;
+  height: auto;
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+
+.lignepacktext1 {
+  padding-bottom: 65px;
+  font-family: 'Raleway';
+}
+
+.lignepacktext2 {
+  padding-bottom: 55px;
+  font-family: 'Raleway';
+}
+
+.lignepacktext3 {
+  padding-bottom: 70px;
+  font-family: 'Raleway';
+}
+
+.lignepacktext4 {
+  padding-bottom: 50px;
+  font-family: 'Raleway';
+}
+
+.boxlignepack {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-width: 2px;
+  border-color: #2B4E67;
+  border-style: solid;
+  background-color: white;
+
+}
+
+.boxlignepack:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+/***************************************************** Transition */
+
+.middle5 {
+  position: absolute;
+  transform: rotate(180deg);
+  left: 1200px;
+  top: 2700px;
+  width: 250px;
+  z-index: -1;
+}
 
 /***************************************************** Communauté */
 
 #Communauté {
   padding-bottom: 30px;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
 }
 
 .text-block3 {
@@ -557,7 +545,6 @@ font-weight: 600;
 .front__bkg-photo {
   position: relative;
   height: 150px;
-  width: 300px;
   background: url("https://images.unsplash.com/photo-1556910638-6cdac31d44dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1001&q=80") no-repeat;
   background-size: cover;
   -webkit-backface-visibility: hidden;
@@ -733,69 +720,35 @@ font-weight: 600;
 }
 
 
-/***************************************************** Temoignage */
-
-.imagemaman {
-  width: 100%;
-  height: auto;
-  padding: 0px;
-}
-
-.retourexperience{
-  font-family: 'Raleway';
-  font-weight: bold;
-  font-size: 2rem;
-  padding-top: 120px;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.divretour{
-  background-color: #2B4E67;
-  color: white;
-}
-
-.row.no-gutters {
-  margin-right: 0;
-  margin-left: 0;
-
-  & > [class^="col-"],
-  & > [class*=" col-"] {
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
-
-
 /***************************************************** CTA FINAL */
 
 
 .ctafinal {
-  background-color: #F9EADD;
+
 }
 
 .ctafinalphrase {
   font-family: 'Montserrat';
   font-weight: bold;
-  padding: 100px;
+  padding-left: 130px;
+  padding-bottom: 100px;
+  padding-top: 100px;
   color: black;
 }
 
 .imagectafinal {
-  width: 90%;
+  width: 40%;
   position: relative;
   height: auto;
   top: 200px;
 
 }
 
-
 .derniercta {
   position:relative;
   margin-top: 50px;
   margin-left: 30px;
 }
-
 
 /***************************************************** Footer */
 
@@ -830,127 +783,280 @@ color: black;
 
 /***************************************************** Media query */
 
+@media (max-width: 600px) {
+
+.middle1 {
+    width:0px;
+  }
+
+.middle2 {
+  width:0px;
+}
+
+.middle3 {
+  width:0px;
+}
+
+.middle4 {
+  width:0px;
+}
+
+.middle5 {
+  width:0px;
+}
+
+}
 
 /* Extra small devices (phones, 600px and down) */
+
 @media only screen and (max-width: 600px) {
-  .titresite {
-    color: #FDFDFD;
-    text-shadow: grey 0px 0px 10px;
-    font-size: 45px;
-    bottom:170px;
+
+  .titre1 {
+    font-size: 40px;
+    padding-left: 20px
+  }
+
+  .titre2 {
+    font-size: 30px;
+    padding-left: 20px
+  }
+
+  .imagelanding {
+    display: none;
+  }
+
+  .myButton2 {
+    display: none;
     padding-right: 10px;
     padding-left: 10px;
+    bottom: 300px;
+    left: 20px;
   }
 
-  .myButton2{
-    font-size:15px;
-    bottom: 100px;
+  .arrow {
+    top: 500px;
+    left: 320px;
   }
 
-  .photofemme {
-    width: 40%;
-    padding-bottom: 10px;
-    height: 500px;
-    object-fit: cover;
-  }
-
-  .photospirale {
-    height: 600px;
-    width: 10px;
-    visibility: hidden;
-  }
-
-.signature3 {
-  padding-left: 50px;
+.eclat1 {
+display: none;
 }
 
+.eclat2 {
+  display: none;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+.explicationcase1 {
+  margin-top: 150px;
+}
 
-@media only screen and (min-width: 600px) {
-  .titresite {
-    color: #FDFDFD;
-    text-shadow: grey 0px 0px 10px;
-    font-size: 50px;
-    bottom: 250px;
-    padding-right: 100px;
-  }
-  .myButton2{
-    bottom: 100px;
-  }
+.lignepacktitre2 {
+  padding-left: 30px;
+}
 
-  .photofemme {
-    width: 70%;
-    padding-bottom: 10px;
-    height: 500px;
-    object-fit: cover;
-  }
+.lignepacktitre {
+  padding-left: 30px;
+}
 
-  .titrePresentationproduit{
-    padding-top: 60px;
-  }
+.ctafinalphrase {
+  padding-left: 20px;
+}
 
+.derniercta {
+bottom: 100px;
+left: 20px;
+}
+
+.imagectafinal {
+  bottom: 0px;
+  top: 0px;
+}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .titresite {
-    color: #FDFDFD;
-    text-shadow: grey 0px 0px 10px;
-    bottom: 250px;
-    font-size: 60px;
+
+  .titre1 {
+    font-size: 40px;
   }
-  .myButton2{
-    bottom: 150px;
+
+  .imagelanding {
+    padding-top: 120px;
   }
+
+  .myButton2 {
+    bottom: 380px;
+    left: 40px;
+  }
+
+.middle1 {
+    width:0px;
+  }
+
+.middle2 {
+  width:0px;
+}
+
+.middle3 {
+  width:0px;
+}
+
+.middle4 {
+  width:0px;
+}
+
+.middle5 {
+  width:0px;
+}
+
+.eclat1 {
+right: 100px;
+left: 100px;
+}
+
+.eclat2 {
+right: 100px;
+}
+
+.ctafinalphrase {
+  padding-left: 20px;
+}
+
+.derniercta {
+  bottom: 50px;
+}
+
+.imagectafinal {
+    bottom: 200px;
+    top: 0px;
+}
 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .titresite {
-    color: #FDFDFD;
-    text-shadow: grey 0px 0px 10px;
-    font-size: 70px;
-    bottom: 250px;
-  }
-  .myButton2{
-    bottom: 50px;
+
+  .titre2 {
+    font-size: 30px;
   }
 
-  .photospirale{
-    visibility: hidden;
+  .myButton2{
+    bottom: 820px;
   }
+
 
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .titresite {
-    color: #FDFDFD;
-    text-shadow: grey 0px 0px 10px;
-    font-size: 70px;
-    bottom: 300px;
+
+  .titre1 {
+    padding-top: 140px;
+    padding-left: 100px;
+    font-size: 55px;
+    font-family: 'Montserrat'
+  }
+
+  .titre2{
+    padding-top: 20px;
+    padding-left: 100px;
+    font-size: 35px;
+    font-family: 'Raleway'
+  }
+
+  .myButton2 {
+  	background-color:#af502b;
+  	border-radius:28px;
+  	display:inline-block;
+  	cursor:pointer;
+  	color: white;
+  	font-family:'Raleway';
+  	font-size:18px;
+  	font-weight:bold;
+  	padding:20px 80px;
+  	text-decoration:none;
+  	text-shadow:0px 0px 0px #2f6627;
+    position: absolute;
+    bottom: 120px;
+    left: 100px;
+    z-index: 1;
+  }
+
+
+
+  .middle3 {
+  position: absolute;
+  right: 100px;
+  top: 2100px;
+  width: 200px;
+  z-index: 0;
+  }
+
+  .middle4 {
+  position: absolute;
+  width: 200px;
+  z-index: 0;
+  }
+
+  .middle5 {
+    position: absolute;
+    transform: rotate(180deg);
+    left: 1200px;
+    top: 2700px;
+    width: 250px;
+    z-index: -1;
+  }
+
+
+  .middle1 {
+  position: absolute;
+  width: 300px;
+  top: 500px;
+  z-index: -1;
+  }
+
+  .middle2 {
+  position: absolute;
+  transform: rotate(180deg);
+  left: 1200px;
+  width: 250px;
+  z-index: 0;
+  }
+
+  .arrow {
+    position: absolute;
+    width: 90px;
+    right: 10px;
+    top: 610px;
+    z-index: -1;
+  }
+
+  .imagelanding {
+  position: relative;
+  width: 90%;
+  height: auto;
+  bottom: 0px;
+  padding-top: 0px;
 
   }
 
-  .myButton2{
-    bottom: 100px;
+  .explicationcase1 {
+    margin-top: 0px;
   }
 
-  .coloneoffre {
-    padding: 0px;
+  .eclat1 {
+    position: absolute;
+    width: 80px;
+    height: auto;
+    left: 400px;
   }
 
-  .photospirale{
-    visibility:visible;
+  .eclat2 {
+    position: absolute;
+    width: 80px;
+    height: auto;
+    right: 400px;
+    transform: rotate(180deg);
   }
 
-}
-
-@media (max-width: 1000px) {
-  .zigzag {
-    visibility: hidden;
-  }
 }
