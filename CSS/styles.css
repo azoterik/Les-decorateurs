@@ -393,7 +393,8 @@ text-align: center;
 }
 
 .lignepacktext3 {
-  padding-bottom: 70px;
+  padding-top: 12px;
+  padding-bottom: 58px;
   font-family: 'Raleway';
 }
 
@@ -730,10 +731,12 @@ text-align: center;
 .ctafinalphrase {
   font-family: 'Montserrat';
   font-weight: bold;
+
   color: black;
   padding-bottom: 200px;
   padding-top: 20px;
   margin-left: 80px;
+
 }
 
 .imagectafinal {
@@ -745,9 +748,9 @@ text-align: center;
 }
 
 .derniercta {
-  position:relative;
-  margin-top: 50px;
-  margin-left: 30px;
+  position:absolute;
+bottom: 300px;
+
 }
 
 /***************************************************** Footer */
