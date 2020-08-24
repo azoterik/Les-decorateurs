@@ -1,21 +1,23 @@
-
 * {
   padding: 0;
   margin: 0;
   -moz-box-sizing: border-box;
--webkit-box-sizing: border-box;
-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+
+html, body {
+  overflow-x: hidden;
 }
 
 /***************************************************** Nav bar */
-
-.navbar{
-font-family: 'Raleway';
-font-weight: bold;
+.navbar {
+  font-family: 'Raleway';
+  font-weight: bold;
 }
 
 .navpadding {
@@ -29,13 +31,13 @@ font-weight: bold;
 }
 
 .navtext {
-font-size: 14px;
-color: black;
-padding-left: 70px;
+  font-size: 14px;
+  color: black;
+  padding-left: 70px;
 }
 
 .collapse {
-padding-right: 70px;
+  padding-right: 70px;
 }
 
 .navtext:hover {
@@ -43,114 +45,154 @@ padding-right: 70px;
 }
 
 .myButton {
-	background-color:#000000;
-	border-radius:35px;
-	border:1px solid #ffffff;
-	display:inline-block;
-	cursor:pointer;
-	color:#fcf7fc;
-	font-family:'Raleway';
-	font-size:12px;
-	padding:8px 20px;
-	text-decoration:none;
+  background-color: #000000;
+  border-radius: 35px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: #fcf7fc;
+  font-family: 'Raleway';
+  font-size: 12px;
+  padding: 8px 20px;
+  text-decoration: none;
 }
+
 .myButton:hover {
-	background-color:#af502b;
+  background-color: #af502b;
   text-decoration: none;
   color: white;
 }
+
 .myButton:active {
-	position:relative;
-	top:1px;
+  position: relative;
+  top: 1px;
 }
 
 .myButton6 {
-	background-color: black;
-	border-radius:35px;
-	border:1px solid #ffffff;
-	display:inline-block;
-	cursor:pointer;
-	color:white;
-	font-family:'Raleway';
-	font-size:14px;
-	padding:8px 20px;
-	text-decoration:none;
+  background-color: black;
+  border-radius: 35px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-family: 'Raleway';
+  font-size: 14px;
+  padding: 8px 20px;
+  text-decoration: none;
 }
+
 .myButton6:hover {
-	background-color:#af502b;
+  background-color: #af502b;
   text-decoration: none;
   color: white;
 }
+
 .myButton6:active {
-	position:relative;
-	top:1px;
+  position: relative;
+  top: 1px;
 }
 
 /***************************************************** Lending Menu */
-
 .imagelanding {
-position: relative;
-width: 90%;
-height: auto;
-bottom: 20px;
+  position: relative;
+  width: 80%;
+  height: auto;
+  bottom: 20px;
 }
 
 .titre1 {
   padding-top: 140px;
   padding-left: 100px;
-  font-size: 55px;
+  font-size: 4vw;
   font-family: 'Montserrat'
 }
 
-.titre2{
+.titre2 {
   padding-top: 20px;
   padding-left: 100px;
-  font-size: 35px;
+  font-size: 2.5vw;
   font-family: 'Raleway'
 }
 
-
 .myButton2 {
-	background-color:#af502b;
-	border-radius:28px;
-	display:inline-block;
-	cursor:pointer;
-	color: white;
-	font-family:'Raleway';
-	font-size:18px;
-	font-weight:bold;
-	padding:20px 80px;
-	text-decoration:none;
-	text-shadow:0px 0px 0px #2f6627;
-  position: absolute;
-  bottom: 120px;
+  background-color: #af502b;
+  border-radius: 28px;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-family: 'Raleway';
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px 80px;
+  text-decoration: none;
+  text-shadow: 0px 0px 0px #2f6627;
+  position: relative;
+  top: 40px;
   left: 100px;
   z-index: 1;
 }
 
 .myButton2:hover {
-	background-color: #EEEEEE;
+  background-color: #EEEEEE;
   text-decoration: none;
   color: #af502b;
-
 }
+
 .myButton2:active {
-	position:absolute;
-	top:1px;
-}
-
-
-.arrow {
   position: absolute;
-  width: 90px;
-  right: 10px;
-  top: 610px;
-  z-index: -1;
+  top: 1px;
 }
 
+.arrow1 {
+  position: absolute;
+  height: 130px;
+  bottom: 100px;
+}
+
+/***************************************************** Middle1*/
+.middle1 {
+  float: left;
+  position: absolute;
+  width: 300px;
+  top: 450px;
+}
+
+/***************************************************** Indicateurs */
+section#counter-stats {
+  display: flex;
+  justify-content: center;
+  background-color: ##DDB8A7;
+  margin-bottom: 85px;
+}
+
+.stats {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.indicateurslegende {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.stats .fa {
+  color: #008080;
+  font-size: 60px;
+}
+
+/***************************************************** Middle2*/
+.middle2 {
+  position: absolute;
+  transform: rotate(180deg);
+  right: 0;
+  width: 220px;
+  top: 890px;
+}
 
 /***************************************************** Explication */
-
 .numeroexplication {
   font-size: 80px;
   text-align: center;
@@ -163,56 +205,48 @@ bottom: 20px;
   text-align: center;
 }
 
-.detailexplication{
+.detailexplication {
   font-size: 18px;
   font-family: 'Raleway';
   padding-top: 10px;
   text-align: center;
   padding-left: 30px;
   padding-right: 30px;
-
 }
 
 .image1 {
   width: 200px;
   margin-left: 100px;
   height: auto;
-  align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .image2 {
   width: 220px;
   margin-left: 100px;
   height: auto;
-  align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/***************************************************** Middle 1 */
-
-.middle1 {
-position: absolute;
-width: 300px;
-top: 500px;
-z-index: -1;
+/***************************************************** Middle 3*/
+.middle3 {
+  float: left;
+  position: absolute;
+  width: 310px;
+  top: 1600px;
 }
-
-.middle2 {
-position: absolute;
-transform: rotate(180deg);
-left: 1200px;
-width: 250px;
-z-index: 0;
-}
-
 
 /***************************************************** Nos offres */
-
 #Offre {
   background-color: white;
 }
 
 .ligne {
-   border-top: 2px solid black;
+  border-top: 2px solid black;
 }
 
 .coloneblock {
@@ -221,19 +255,19 @@ z-index: 0;
 }
 
 .coloneoffre {
-align-items: center;
-border-left: : 20%;
-box-shadow: 0px 1px 19px -7px rgba(179,175,175,1);
-margin-right: 110px;
-margin-bottom: 100px;
+  align-items: center;
+  border-left: : 20%;
+  box-shadow: 0px 1px 19px -7px rgba(179, 175, 175, 1);
+  margin-right: 110px;
+  margin-bottom: 100px;
 }
 
-.typeoffre{
-font-size: 1.5rem;
-padding-top: 8%;
-padding-left: 7%;
-font-family: 'Montserrat', sans-serif;
-font-weight: 600;
+.typeoffre {
+  font-size: 1.5rem;
+  padding-top: 8%;
+  padding-left: 7%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
 
 .prix {
@@ -265,28 +299,29 @@ font-weight: 600;
 }
 
 .myButton3 {
-	background-color:#af502b;
-	border-radius:28px;
-	display:inline-block;
-	cursor:pointer;
-	color:white;
-	font-family:'Montserrat', sans-serif;
-	font-size:13px;
-	font-weight:bold;
-	padding:17px 30px;
-	text-decoration:none;
-	text-shadow:0px 0px 0px #2f6627;
+  background-color: #af502b;
+  border-radius: 28px;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 17px 30px;
+  text-decoration: none;
+  text-shadow: 0px 0px 0px #2f6627;
 }
+
 .myButton3:hover {
-	background-color:#f7eff7;
+  background-color: #f7eff7;
   text-decoration: none;
   color: black;
 }
-.myButton3:active {
-	position:relative;
-	top:1px;
-}
 
+.myButton3:active {
+  position: relative;
+  top: 1px;
+}
 
 .texteoffre {
   font-family: 'Raleway';
@@ -296,7 +331,7 @@ font-weight: 600;
 
 .detailtexte {
   color: black;
-  font-family:'Raleway';
+  font-family: 'Raleway';
 }
 
 .detailtexte:hover {
@@ -304,40 +339,22 @@ font-weight: 600;
   text-decoration: none;
 }
 
-/***************************************************** Transition */
-
-.middle3 {
-position: absolute;
-right: 100px;
-top: 2100px;
-width: 200px;
-z-index: 0;
-}
-
+/***************************************************** Middle 4*/
 .middle4 {
-position: absolute;
-width: 200px;
-z-index: 0;
+  float: left;
+  position: absolute;
+  width: 250px;
+  top: 2520px;
 }
 
+.arrow2 {
+  position: absolute;
+  height: 170px;
+  right: 120px;
+  top: 2450px;
+}
 
 /***************************************************** Explication offre 95 */
-
-.eclat1 {
-  position: absolute;
-  width: 80px;
-  height: auto;
-  left: 400px;
-}
-
-.eclat2 {
-  position: absolute;
-  width: 80px;
-  height: auto;
-  right: 400px;
-  transform: rotate(180deg);
-}
-
 .lignepacktitre {
   padding-top: 60px;
   z-index: 1;
@@ -353,15 +370,15 @@ z-index: 0;
   font-family: 'Raleway';
   font-size: 22px;
   text-align: center;
-  padding-bottom:20px;
+  padding-bottom: 20px;
 }
 
 .lignepack {
-padding-top: 40px;
-padding-bottom: 80px;
-padding-left: 120px;
-padding-right: 120px;
-text-align: center;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  padding-left: 120px;
+  padding-right: 120px;
+  text-align: center;
 }
 
 .casecarre {
@@ -410,32 +427,28 @@ text-align: center;
   border-color: #2B4E67;
   border-style: solid;
   background-color: white;
-
 }
 
 .boxlignepack:hover {
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-/***************************************************** Transition */
-
+/***************************************************** Middle 5*/
 .middle5 {
   position: absolute;
   transform: rotate(180deg);
-  left: 1200px;
-  top: 2700px;
-  width: 250px;
+  right: 0;
+  width: 220px;
+  top: 3000px;
   z-index: -1;
 }
 
 /***************************************************** Communauté */
-
 #Communauté {
   padding-bottom: 30px;
 }
 
-.carousel-control-next-icon:after
-{
+.carousel-control-next-icon:after {
   content: '>';
   font-size: 55px;
   color: black;
@@ -449,16 +462,17 @@ text-align: center;
 
 .text-block3 {
   font-family: 'Montserrat', sans-serif;
-  font-weight:500;
+  font-weight: 600;
   font-size: 2.5rem;
   padding-left: 50px;
   padding-top: 50px;
   padding-bottom: 50px;
+  text-align: center;
 }
 
 .carouselcommunauté {
-    background-color: white;
-    margin-bottom: 100px;
+  background-color: white;
+  margin-bottom: 100px;
 }
 
 .background {
@@ -493,9 +507,9 @@ text-align: center;
 
 .outer-div {
   -webkit-perspective: 900px;
-          perspective: 900px;
+  perspective: 900px;
   -webkit-perspective-origin: 50% calc(50% - 18em);
-          perspective-origin: 50% calc(50% - 18em);
+  perspective-origin: 50% calc(50% - 18em);
 }
 
 .inner-div {
@@ -509,17 +523,19 @@ text-align: center;
   transition: all 0.6s cubic-bezier(0.8, -0.4, 0.2, 1.7);
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
-
 }
+
 .inner-div:hover {
   -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
+  transform: rotateY(180deg);
   background-color: transparent;
 }
+
 .inner-div:hover .social-icon {
   opacity: 1;
   top: 0;
 }
+
 .inner-div:hover .front__face-photo, .inner-div:hover .front__footer {
   opacity: 0;
 }
@@ -530,7 +546,7 @@ text-align: center;
   top: 0;
   left: 0;
   -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .front {
@@ -538,7 +554,7 @@ text-align: center;
   height: 100%;
   background: #fff;
   -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   border-radius: 5px;
   box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
@@ -549,11 +565,12 @@ text-align: center;
   background: url("https://images.unsplash.com/photo-1556910638-6cdac31d44dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1001&q=80") no-repeat;
   background-size: cover;
   -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   overflow: hidden;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
 }
+
 .front__bkg-photo:after {
   content: "";
   position: absolute;
@@ -573,17 +590,16 @@ text-align: center;
   border: 5px solid #fff;
   background-size: contain;
   -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   overflow: hidden;
   -webkit-transition: all 0.6s cubic-bezier(0.8, -0.4, 0.2, 1.7);
   transition: all 0.6s cubic-bezier(0.8, -0.4, 0.2, 1.7);
   z-index: 3;
 }
 
-.imagedecorateur{
+.imagedecorateur {
   width: 110px;
   height: auto;
-
 }
 
 .front__text {
@@ -593,11 +609,13 @@ text-align: center;
   font-family: "Montserrat";
   font-size: 18px;
   -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
+
 .front__text .front__text-header {
   font-weight: 700;
 }
+
 .front__text .front__text-para {
   position: relative;
   top: -5px;
@@ -607,6 +625,7 @@ text-align: center;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
 }
+
 .front__text .front-icons {
   position: relative;
   top: 0;
@@ -614,13 +633,14 @@ text-align: center;
   margin-right: 6px;
   color: gray;
 }
+
 .front__text .front__text-hover {
   position: relative;
   top: 10px;
   font-size: 10px;
   color: #E2A8A9;
   -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   font-weight: 700;
   text-transform: uppercase;
   border: 2px solid #E2A8A9;
@@ -633,7 +653,7 @@ text-align: center;
 
 .back {
   -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
+  transform: rotateY(180deg);
   position: absolute;
   top: 0;
   left: 0;
@@ -646,16 +666,17 @@ text-align: center;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-          flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: center;
-          justify-content: center;
+  justify-content: center;
   -webkit-box-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .social-media-wrapper {
   font-size: 36px;
 }
+
 .social-media-wrapper .social-icon {
   position: relative;
   top: 20px;
@@ -666,21 +687,25 @@ text-align: center;
   -webkit-transition: all 0.4s cubic-bezier(0.3, 0.7, 0.1, 1.9);
   transition: all 0.4s cubic-bezier(0.3, 0.7, 0.1, 1.9);
 }
+
 .social-media-wrapper .social-icon:nth-child(1) {
   -webkit-transition-delay: 0.6s;
-          transition-delay: 0.6s;
+  transition-delay: 0.6s;
 }
+
 .social-media-wrapper .social-icon:nth-child(2) {
   -webkit-transition-delay: 0.7s;
-          transition-delay: 0.7s;
+  transition-delay: 0.7s;
 }
+
 .social-media-wrapper .social-icon:nth-child(3) {
   -webkit-transition-delay: 0.8s;
-          transition-delay: 0.8s;
+  transition-delay: 0.8s;
 }
+
 .social-media-wrapper .social-icon:nth-child(4) {
   -webkit-transition-delay: 0.9s;
-          transition-delay: 0.9s;
+  transition-delay: 0.9s;
 }
 
 .fab {
@@ -695,14 +720,14 @@ text-align: center;
   top: -5px;
 }
 
-.descrpitiondecorateur1{
+.descrpitiondecorateur1 {
   padding-top: 20px;
-  color:black;
+  color: black;
   font-size: 18px;
   font-family: 'Montserrat'
 }
 
-.descrpitiondecorateur{
+.descrpitiondecorateur {
   color: grey;
   font-size: 13px;
   font-family: 'Montserrat'
@@ -713,62 +738,61 @@ text-align: center;
   height: auto;
 }
 
-/* middle */
-
-.photointermediaire {
-  width: 100%;
-  height: auto;
-}
-
-
 /***************************************************** CTA FINAL */
-
-
 .ctafinal {
-
+  margin-top: 50px;
+  margin-bottom: 60px;
+  text-align: center;
 }
 
-.ctafinalphrase {
-  font-family: 'Montserrat';
+.myButtonfinal {
+  background-color: #af502b;
+  border-radius: 28px;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-family: 'Raleway';
+  font-size: 18px;
   font-weight: bold;
-
-  color: black;
-  padding-bottom: 200px;
-  padding-top: 20px;
-  margin-left: 80px;
-
-}
-
-.imagectafinal {
-  width: 40%;
+  padding: 20px 80px;
+  text-decoration: none;
+  text-shadow: 0px 0px 0px #2f6627;
   position: relative;
-  height: auto;
-  top: 200px;
-
+  z-index: 1;
+  text-align: center;
 }
 
-.derniercta {
-  position:absolute;
-bottom: 300px;
+.myButtonfinal:hover {
+  background-color: #EEEEEE;
+  text-decoration: none;
+  color: #af502b;
+}
 
+.myButtonfinal:active {
+  position: absolute;
+  top: 1px;
 }
 
 /***************************************************** Footer */
-
 .lienstyle {
   color: black;
 }
+
 .lienstyle:hover {
-color: black;
+  color: black;
 }
 
-.page-footer{
+.page-footer {
   font-family: 'Montserrat', sans-serif;
   font-size: 11px;
 }
 
 .lienstyle2 {
-  font-size: 25px;
+  font-size: 35px;
+  color: black;
+}
+
+.lienstyle2:hover {
   color: black;
 }
 
@@ -776,290 +800,59 @@ color: black;
   font-family: 'Raleway';
 }
 
-.lienmail {
+.maildeco {
   text-decoration: none;
+  color: black;
 }
 
-.lienmail:hover {
-  text-decoration: none;
+.maildeco:hover {
+  color: black;
 }
 
 /***************************************************** Media query */
-
-@media (max-width: 600px) {
-
-.middle1 {
-    width:0px;
+@media screen and (max-width: 851px) {
+  .navtext {
+    padding-left: 0px;
   }
 
-.middle2 {
-  width:0px;
-}
-
-.middle3 {
-  width:0px;
-}
-
-.middle4 {
-  width:0px;
-}
-
-.middle5 {
-  width:0px;
-}
-
-}
-
-/* Extra small devices (phones, 600px and down) */
-
-@media only screen and (max-width: 600px) {
-
   .titre1 {
+    padding-top: 100px;
     font-size: 40px;
-    padding-left: 20px
+    padding-left: 50px;
   }
 
   .titre2 {
-    font-size: 30px;
-    padding-left: 20px
-  }
-
-  .imagelanding {
-    display: none;
+    font-size: 25px;
+    padding-left: 50px;
   }
 
   .myButton2 {
-    display: none;
-    padding-right: 10px;
-    padding-left: 10px;
-    bottom: 300px;
-    left: 20px;
+    padding: 10px 20px;
   }
 
-  .arrow {
-    top: 500px;
-    left: 320px;
+  .container {
+    margin-top: 50px;
   }
-
-.eclat1 {
-display: none;
-}
-
-.eclat2 {
-  display: none;
-}
-
-.explicationcase1 {
-  margin-top: 150px;
-}
-
-.lignepacktitre2 {
-  padding-left: 30px;
-}
-
-.lignepacktitre {
-  padding-left: 30px;
-}
-
-.ctafinalphrase {
-  padding-left: 20px;
-}
-
-.derniercta {
-bottom: 100px;
-left: 20px;
-}
-
-.imagectafinal {
-  bottom: 0px;
-  top: 0px;
-}
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-  .titre1 {
-    font-size: 40px;
-  }
-
-  .imagelanding {
-    padding-top: 120px;
-  }
-
-  .myButton2 {
-    bottom: 380px;
-    left: 40px;
-  }
-
-.middle1 {
-    width:0px;
-  }
-
-.middle2 {
-  width:0px;
-}
-
-.middle3 {
-  width:0px;
-}
-
-.middle4 {
-  width:0px;
-}
-
-.middle5 {
-  width:0px;
-}
-
-.eclat1 {
-right: 100px;
-left: 100px;
-}
-
-.eclat2 {
-right: 100px;
-}
-
-.ctafinalphrase {
-  padding-left: 20px;
-}
-
-.derniercta {
-  bottom: 50px;
-}
-
-.imagectafinal {
-    bottom: 200px;
-    top: 0px;
-}
-
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-  .titre2 {
-    font-size: 30px;
-  }
-
-  .myButton2{
-    bottom: 820px;
-  }
-
-
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-  .titre1 {
-    padding-top: 140px;
-    padding-left: 100px;
-    font-size: 55px;
-    font-family: 'Montserrat'
-  }
-
-  .titre2{
-    padding-top: 20px;
-    padding-left: 100px;
-    font-size: 35px;
-    font-family: 'Raleway'
-  }
-
-  .myButton2 {
-  	background-color:#af502b;
-  	border-radius:28px;
-  	display:inline-block;
-  	cursor:pointer;
-  	color: white;
-  	font-family:'Raleway';
-  	font-size:18px;
-  	font-weight:bold;
-  	padding:20px 80px;
-  	text-decoration:none;
-  	text-shadow:0px 0px 0px #2f6627;
-    position: absolute;
-    bottom: 120px;
-    left: 100px;
-    z-index: 1;
-  }
-
-
 
   .middle3 {
-  position: absolute;
-  right: 100px;
-  top: 2100px;
-  width: 200px;
-  z-index: 0;
+    z-index: -1;
   }
 
   .middle4 {
-  position: absolute;
-  width: 200px;
-  z-index: 0;
-  }
-
-  .middle5 {
-    position: absolute;
-    transform: rotate(180deg);
-    left: 1200px;
-    top: 2700px;
-    width: 250px;
     z-index: -1;
   }
 
-
   .middle1 {
-  position: absolute;
-  width: 300px;
-  top: 500px;
-  z-index: -1;
+    z-index: -1;
   }
 
   .middle2 {
-  position: absolute;
-  transform: rotate(180deg);
-  left: 1200px;
-  width: 250px;
-  z-index: 0;
-  }
-
-  .arrow {
-    position: absolute;
-    width: 90px;
-    right: 10px;
-    top: 610px;
     z-index: -1;
   }
+}
 
-  .imagelanding {
-  position: relative;
-  width: 90%;
-  height: auto;
-  bottom: 0px;
-  padding-top: 0px;
-
+@media screen and (max-width: 1200px) {
+  .arrow2 {
+    display: none;
   }
-
-  .explicationcase1 {
-    margin-top: 0px;
-  }
-
-  .eclat1 {
-    position: absolute;
-    width: 80px;
-    height: auto;
-    left: 400px;
-  }
-
-  .eclat2 {
-    position: absolute;
-    width: 80px;
-    height: auto;
-    right: 400px;
-    transform: rotate(180deg);
-  }
-
 }
