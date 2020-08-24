@@ -155,6 +155,7 @@ html, body {
   position: absolute;
   width: 300px;
   top: 450px;
+  z-index: -1;
 }
 
 /***************************************************** Indicateurs */
@@ -190,6 +191,7 @@ section#counter-stats {
   right: 0;
   width: 220px;
   top: 890px;
+  z-index: -1;
 }
 
 /***************************************************** Explication */
@@ -238,6 +240,7 @@ section#counter-stats {
   position: absolute;
   width: 310px;
   top: 1600px;
+  z-index: -1;
 }
 
 /***************************************************** Nos offres */
@@ -345,6 +348,7 @@ section#counter-stats {
   position: absolute;
   width: 250px;
   top: 2520px;
+  z-index: -1;
 }
 
 .arrow2 {
