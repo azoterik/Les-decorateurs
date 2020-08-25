@@ -240,7 +240,6 @@ section#counter-stats {
   position: absolute;
   width: 310px;
   top: 1600px;
-  z-index: -1;
 }
 
 /***************************************************** Nos offres */
