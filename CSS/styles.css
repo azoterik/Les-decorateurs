@@ -139,8 +139,7 @@ html, body {
 }
 
 .myButton2:active {
-  position: absolute;
-  top: 1px;
+  position: relative;
 }
 
 .arrow1 {
@@ -772,8 +771,7 @@ section#counter-stats {
 }
 
 .myButtonfinal:active {
-  position: absolute;
-  top: 1px;
+  position: relative;
 }
 
 /***************************************************** Footer */
