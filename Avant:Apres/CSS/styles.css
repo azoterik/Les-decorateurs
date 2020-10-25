@@ -265,9 +265,6 @@ header {
 
 /***************************************************** Media query */
 @media screen and (max-width: 600px) {
-  .QUOI {
-    color: red;
-  }
 
   .imagebefore {
     width: 90vw;
